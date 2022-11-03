@@ -21,6 +21,11 @@ public class Alist {
 			System.out.println("Dizi içinde red yok");
 		
 		System.out.println("Green Değerinin İndeksi " + dizi.indexOf("green"));
+		dizi.clear();
+		for(int i=0; i<dizi.size(); i++)
+		{
+			System.out.println(dizi.get(i));
+		}
 	}
-
+	
 }
